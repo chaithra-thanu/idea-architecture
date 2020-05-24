@@ -1,0 +1,57 @@
+.selector-for-some-widget{
+    box-sizing: border-box;
+    margin: 0;
+}
+.form-control .valid-form{
+    padding: 1.375rem .75rem !important;
+    margin-bottom: 1rem !important;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.image-column{
+    flex: 50%;
+    max-width: 50%;
+    padding: 04px;
+}
+.column .image-column img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+.gal {
+	
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+		
+	}
